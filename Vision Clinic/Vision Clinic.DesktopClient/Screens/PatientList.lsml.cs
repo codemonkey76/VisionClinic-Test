@@ -10,7 +10,6 @@ using Microsoft.LightSwitch.Presentation.Extensions;
 namespace LightSwitchApplication
 {
     public partial class PatientList
-    {
-        //Testing   
+    {     
     }
 }

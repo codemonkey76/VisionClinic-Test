@@ -26,6 +26,7 @@
     <ServiceDefinitionFile>ServiceDefinition.csdef</ServiceDefinitionFile>
     <ServiceConfigurationFile>ServiceConfiguration.cscfg</ServiceConfigurationFile>
     <SqlExpressInstanceName>(LocalDB)\v11.0</SqlExpressInstanceName>
+    <DefaultLanguage>en-US</DefaultLanguage>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <OutputPath>bin\Debug</OutputPath>
@@ -101,6 +102,12 @@
     <ProjectReference Include="Vision Clinic.DesktopClient\Vision Clinic.DesktopClient.csproj">
       <Name>Vision Clinic.DesktopClient</Name>
       <Project>{6a48c5fe-0f67-4c41-bf07-307de7f8cdef}</Project>
+      <Private>True</Private>
+      <Type>Client</Type>
+    </ProjectReference>
+    <ProjectReference Include="Vision Clinic.HTMLClient\Vision Clinic.HTMLClient.jsproj">
+      <Name>Vision Clinic.HTMLClient</Name>
+      <Project>{f95982bd-8f3f-4331-b175-5fa4fed161a1}</Project>
       <Private>True</Private>
       <Type>Client</Type>
     </ProjectReference>
