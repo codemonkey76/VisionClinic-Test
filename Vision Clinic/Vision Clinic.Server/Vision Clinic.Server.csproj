@@ -220,6 +220,9 @@
     <LightSwitchModel Include="DataSources\PrescriptionContoso\RelatedProducts.lsml">
       <DependentUpon>Products.lsml</DependentUpon>
     </LightSwitchModel>
+    <LightSwitchModel Include="DataSources\ApplicationData\UpcomingAppointments.lsml">
+      <DependentUpon>Appointments.lsml</DependentUpon>
+    </LightSwitchModel>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

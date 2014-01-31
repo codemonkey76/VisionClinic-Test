@@ -85,12 +85,15 @@
     </ServiceMetadataReference>
   </ItemGroup>
   <ItemGroup>
+    <LightSwitchModel Include="Properties\ApplicationData\Appointments.lsml" />
     <LightSwitchModel Include="Properties\ApplicationData\Patients.lsml" />
     <LightSwitchModel Include="Properties\Client.lsml">
       <ProjectCritical>true</ProjectCritical>
     </LightSwitchModel>
     <LightSwitchModel Include="Properties\Proxies.lsml" />
     <LightSwitchModel Include="Screens\BrowsePatients.lsml" />
+    <LightSwitchModel Include="Screens\BrowseUpcomingAppointments.lsml" />
+    <LightSwitchModel Include="Screens\ViewAppointment.lsml" />
     <LightSwitchModel Include="Screens\ViewPatient.lsml" />
   </ItemGroup>
   <ItemGroup>
